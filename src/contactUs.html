@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NEWIT</title>
+    <link rel="shortcut icon" href="../Favicon.jpg" type="image/x-icon">
+
+
+    <!-- Bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <!-- Custom Style-->
+    <link rel="stylesheet" href="../css/contactus.css">
+
+  </head>
+  <body>
+    <header class="main-header">
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg main-nav px-0">
+          <a class="navbar-brand" href="home.html">
+            <img src="../images/logopng.png" alt="newit.com">
+          </a>
+          <div class="menuToggle" data-toggle="collapse" data-target="#mainMenu" aria-controls="mainMenu"
+            aria-expanded="false" aria-label="Toggle navigation" onclick="toggleMenu();">
+            <label for="check">
+              <input type="checkbox" id="check" />
+              <span></span>
+              <span></span>
+              <span></span>
+            </label>
+          </div>
+          <div class="collapse navbar-collapse" id="mainMenu">
+            <ul class="navbar-nav ml-auto navigations">
+              <li>
+                <a href="../home.html" class="active-first">Home</a>
+              </li>
+              <li>
+                <a href="./about.html">About Us</a>
+              </li>
+              <li>
+                <a href="#" onclick="alert('this page is yet to be implemented');">Impact Stories</a>
+              </li>
+              <li>
+                <a href="#" onclick="alert('this page is yet to be implemented');">Blog</a>
+              </li>
+              <li>
+                <a href="./media.html">Media</a>
+              </li>
+              <li class="">
+                <a href="./contactUs.html" class="active">Contact Us</a>
+              </li>
+  
+            </ul>
+            <a href="./donate.html" class="button">Donate</a>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdADf9WLLlHi6_EFQEFSrzOA5AD9Z1boga7nibgsK3PvfR_WQ/viewform?usp=pp_url" target="_blank" class="button">Register</a>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+
+      <!------ Landing ------->
+      <section>
+        <div class="main-section">
+          <div class="contact-page">
+            <div class="text">
+              <h3> Contact Us </h3>
+            </div>            
+          </div>
+        </div>
+      </section>
+      
+
+      <!----- Intro ----->
+      <section class="contact-us-page">
+        <div class="contact-us container-fluid">
+          <div class="contact-form" >
+            <form action="https://api.web3forms.com/submit" method="POST" id="form">
+              <input type="hidden" name="access_key" value="53313f49-aec9-4665-9c7a-5d726dcfd93d" />
+              <input type="hidden" name="subject" value="New Submission from Web3Forms" />
+              <input type="checkbox" name="botcheck" id="" style="display: none;" />
+              <ul>
+                <li>
+                  <input  name="name" type="text" class="form-control" id="name" placeholder="Name" required>
+                  <div class="help-block with-errors"></div>
+                </li>
+                <li>
+                  <input name="email" type="email" class="form-control" id="email" placeholder="Email Address" required>
+                  <div class="help-block with-errors"></div>
+                </li>
+
+                <li>
+                  <textarea rows="8" cols="60" required name="message" class="contact-message form-control" id="message" placeholder="Message or Inquiry"></textarea>
+                  <div class="help-block with-errors"></div>
+                </li>
+              </ul>
+              
+              <input type="submit" value="Send">
+              <p class="text-base text-center text-gray-400 my-4" id="result"></p>
+            </form>
+          
+          </div>
+          <div class="contact-social">
+            <div class="contact-addr">
+              <a class="px-2" href="tel:+2348142709080">
+                <span class="iconify" data-icon="bxs:phone-call"></span>                  
+                <div class="col">
+                  <p>Call Us On : </p>
+                  <p>+2349161200312</p>
+                </div>
+              </a>
+              <hr>
+              <a class="px-2" href="mailto:newomenintech@gmail.com">
+                <span class="iconify" data-icon="ic:sharp-mark-email-unread"></span>                  
+                <div class="col">
+                  <p>Email Us Via : </p>
+                  <p>newomenintech@gmail.com</p>
+                </div>
+              </a>
+              <hr>
+              <a class="px-2" href="#!">
+                <span class="iconify" data-icon="entypo:location"></span>                  
+                <div class="col">
+                  <p>Visit Us At : </p>
+                  <p>Shop P12 Fire Service Complex</p>
+                </div>
+              </a>
+              <hr>
+            </div>
+            <div class="social-links">
+              <p>Connect With Us On: </p>
+              <ul class="list-unstyled d-flex flex-row justify-content-center">
+                
+                <li>
+                  <a class="px-2" href="https://www.linkedin.com/company/northeast-women-in-tech/about/?viewAsMember=true" target="_blank">
+                    <span class="iconify" data-icon="entypo-social:linkedin-with-circle"></span>                  
+                  </a>
+                </li>
+                <li>
+                  <a class="px-2" href="https://www.instagram.com/northeastwomenintech/?hl=en" target="_blank">
+                    <span class="iconify" data-icon="entypo-social:instagram-with-circle"></span>
+                  </a>
+                </li>
+                <li>
+                  <a class="px-2" href="https://web.facebook.com/Northeast-Women-in-Tech-105106088842807/?ref=pages_you_manage" target="_blank">
+                    <span class="iconify" data-icon="entypo-social:facebook-with-circle"></span>
+                  </a>
+                </li>
+                <li>
+                  <a class="px-2" href="https://twitter.com/newomenintech" target="_blank">
+                    <span class="iconify" data-icon="entypo-social:twitter-with-circle"></span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+
+      
+
+    </main>
+
+    <!-- Footer -->
+    <footer class=" text-lg-start ">
+      <!-- Grid container -->
+      <div class="footer container p-4">
+        <!--Grid row-->
+        <div class="row my-4">
+                
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase mb-4">Links</h5>
+  
+            <ul class="list-unstyled">
+              <li class="mb-2">
+                <a href="../home.html" class="">Home</a>
+              </li>
+              <li class="mb-2">
+                <a href="about.html" class="">About Us</a>
+              </li>
+              <li class="mb-2">
+                <a href="#" onclick="alert('this page is yet to be implemented');" class="">Blog</a>
+              </li>
+              <li class="mb-2">
+                <a href="media.html" class="">Media</a>
+              </li>
+              <li class="mb-2">
+                <a href="#" onclick="alert('this page is yet to be implemented');" class="">Impact Stories</a>
+              </li>
+              <li class="mb-2">
+                <a href="contactUs.html" class="">Contact Us</a>
+              </li>
+              <li class="mb-2">
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSdADf9WLLlHi6_EFQEFSrzOA5AD9Z1boga7nibgsK3PvfR_WQ/viewform?usp=pp_url" class="" target="_blank">Register</a>
+              </li>
+              <li class="mb-2">
+                <a href="donate.html" class="">Donate</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+  
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase mb-4">Get Involved</h5>
+  
+            <ul class="list-unstyled">
+              <li class="mb-2">
+                <a href="donate.html" class="">Donate</a>
+              </li>
+              <li class="mb-2">
+                <a href="contactUs.html" class="">Volunteer</a>
+              </li>
+              <li class="mb-2">
+                <a href="../home.html#newsletter" class="">Subscribe to our Newsletter</a>
+              </li>
+              <li class="mb-2">
+                <a href="#!" class="">Privacy</a>
+              </li>
+              
+            </ul>
+          </div>
+          <!--Grid column-->
+  
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0 ">
+            <h5 class="text-uppercase mb-4">Reach Out</h5>
+  
+            <ul class="list-unstyled">
+              <li>
+                
+                <a href="mailto:newomenintech@gmail.com"><p><span class="iconify" data-icon="clarity:envelope-solid-badged"></span>newomenintech@gmail.com</p></a>
+              </li>
+              <li>
+                <a href="tel:+2349161200312"><p> <span class="iconify" data-icon="bxs:phone-call"></span>+2349161200312</p></a>
+              </li>
+              <li>
+                
+                <a href=""><p> <span class="iconify" data-icon="entypo:location"></span> Shop P12 Fire Service Complex</p></a>
+              </li>
+            </ul>
+
+            <div class="row footer-socials">
+              <div class="footer-img">
+                <img src="../images/logopng.png"  alt="newit" loading="lazy" />
+              </div>
+
+              <div class="col"> 
+                <p>Let's Connect</p>
+                <ul class="list-unstyled d-flex flex-row justify-content-center">
+                  
+                  <li>
+                    <a class=" px-2" href="https://www.linkedin.com/company/northeast-women-in-tech/about/?viewAsMember=true" target="_blank">
+                      <span class="iconify" data-icon="entypo-social:linkedin-with-circle"></span>                  
+                    </a>
+                  </li>
+                  <li>
+                    <a class=" px-2" href="https://www.instagram.com/northeastwomenintech/?hl=en" target="_blank">
+                      <span class="iconify" data-icon="entypo-social:instagram-with-circle"></span>
+                    </a>
+                  </li>
+                  <li>
+                    <a class=" px-2" href="https://web.facebook.com/Northeast-Women-in-Tech-105106088842807/?ref=pages_you_manage" target="_blank">
+                      <span class="iconify" data-icon="entypo-social:facebook-with-circle"></span>
+                    </a>
+                  </li>
+                  <li>
+                    <a class=" ps-2" href="https://twitter.com/newomenintech" target="_blank">
+                      <span class="iconify" data-icon="entypo-social:twitter-with-circle"></span>
+                    </a>
+                  </li>
+                </ul>
+
+              </div>
+    
+              
+            </div>
+          </div>
+          <!--Grid column-->
+
+            
+        </div>
+        <!--Grid row-->
+      </div>
+      <!-- Grid container -->
+      
+  
+      <!-- Copyright -->
+      <div class="text-center p-3">
+        <p>
+          © 2022 northeastwomenintech all rights reserved
+        </p>
+        
+      </div>
+      <!-- Copyright -->
+    </footer>
+    
+    
+
+
+
+
+    <!-- Bootstrap js-->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+    <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+    <script src="../js/custom.js"></script>
+
+
+    <script >
+      window.addEventListener('scroll', function(){
+        const header = document.querySelector('header');
+        header.classList.toggle("sticky", window.scrollY > 0);
+      });
+ 
+ 
+      function toggleMenu(){
+      const menuToggle = document.querySelector('.menuToggle');
+      const navigations = document.querySelector('.navigations');
+      menuToggle.classList   .toggle('active');
+      navigations.classList   .toggle('active');
+      }
+      AOS.init({
+        duration: 1200,
+      });
+
+    </script>
+  </body>
+</html>

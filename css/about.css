@@ -65,8 +65,8 @@ h1, h2, h3, h4, h5, h6{
 .main-header .navbar-brand img {
   width: 60px;
   /* height: 70px; */
-  left: 80px;
-  top: 10px;
+  /* left: 80px;
+  top: 10px; */
 }
 label {
   visibility: hidden;
@@ -583,7 +583,35 @@ footer .footer-socials p{
 }
 
 
-/* --------------------Media Queries------------- */
+/*-----Media Queries-----*/
+@media (max-width: 1026px) {
+  .main-header .navbar-brand img {
+  }
+  #mainMenu li > a {
+    font-size: 12px;
+    white-space: nowrap;
+  }
+  #mainMenu li {
+    margin-right: 30px;
+  }
+  .navbar {
+    margin: 0 4.8%;
+  }
+  .navbar-expand-lg {
+    -ms-flex-flow: row nowrap;
+    flex-flow: row nowrap;
+    -ms-flex-pack: start;
+    justify-content: center;
+  }
+  #mainMenu a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    text-decoration: none;
+    color: #ffffff;
+    width: 95px;
+  }
+}
 
 @media (max-width: 991px){
   .menuToggle{

@@ -1,234 +1,294 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NEWIT</title>
-    <link rel="shortcut icon" href="../Favicon.jpg" type="image/x-icon">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NEWIT</title>
+  <link rel="shortcut icon" href="../Favicon.jpg" type="image/x-icon">
 
 
-    <!-- Bootstrap-->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
-   
-    
+  <!-- Bootstrap-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+    integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
 
 
-    <!-- Custom Style-->
-    <link rel="stylesheet" href="./css/home.css">
-    <link rel="stylesheet" href="./css/loader.css">
 
-  </head>
-  <body>
-    <header class="main-header">
-      <div class="container-fluid">
-        <nav class="navbar navbar-expand-lg main-nav px-0">
-          <a class="navbar-brand" href="home.html">
-            <img src="./images/logopng.png" alt="newit.com">
-          </a>
-          <div class="menuToggle" data-toggle="collapse" data-target="#mainMenu" aria-controls="mainMenu"
-            aria-expanded="false" aria-label="Toggle navigation" onclick="toggleMenu();">
-            <label for="check">
-              <input type="checkbox" id="check" />
-              <span></span>
-              <span></span>
-              <span></span>
-            </label>
+
+  <!-- Custom Style-->
+  <link rel="stylesheet" href="./css/home.css">
+  <link rel="stylesheet" href="./css/loader.css">
+
+</head>
+
+<body>
+  <header class="main-header">
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg main-nav px-0">
+        <a class="navbar-brand" href="home.html">
+          <img src="./images/logopng.png" alt="newit.com">
+        </a>
+        <div class="menuToggle" data-toggle="collapse" data-target="#mainMenu" aria-controls="mainMenu"
+          aria-expanded="false" aria-label="Toggle navigation" onclick="toggleMenu();">
+          <label for="check">
+            <input type="checkbox" id="check" />
+            <span></span>
+            <span></span>
+            <span></span>
+          </label>
+        </div>
+        <div class="collapse navbar-collapse" id="mainMenu">
+          <ul class="navbar-nav ml-auto navigations">
+            <li>
+              <a href="home.html" class="active active-first">Home</a>
+            </li>
+            <li>
+              <a href="./src/about.html">About Us</a>
+            </li>
+            <li>
+              <a href="./src/events.html">Events</a>
+            </li>
+            <li>
+              <a href="#" onclick="alert('this page is yet to be implemented');">Blog</a>
+            </li>
+            <li>
+              <a href="./src/media.html">Media</a>
+            </li>
+            <li class="nav-contact">
+              <a href="./src/contactUs.html">Contact Us</a>
+            </li>
+
+          </ul>
+          <a href="./src/donate.html" class="button">Donate</a>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSdADf9WLLlHi6_EFQEFSrzOA5AD9Z1boga7nibgsK3PvfR_WQ/viewform?usp=pp_url"
+            target="_blank" class="button">Register</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="landing-page">
+
+      <!----- Intro ----->
+      <section class="intro">
+        <div class="container">
+          <div class="row">
+            <div class="col-7  intro-text">
+              <h1 class=" text1">NorthEast Women In Tech</h1>
+              <p>
+                NorthEastern Women In Tech (NEWIT) is a women-led start-up that aims at empowering women and girls with
+                technological skills through mindset reengineering and core tech skills training.<br> Join our online
+                community of like minded girls and women in Tech across the six northeastern states of Nigeria, to
+                network, stay updated, get help and grow in your distinct tech career path.
+              </p>
+              <a href="https://docs.google.com/forms/d/e/1FAIpQLSdADf9WLLlHi6_EFQEFSrzOA5AD9Z1boga7nibgsK3PvfR_WQ/viewform?usp=pp_url"
+                target="_blank" class="button">Join Now</a>
+            </div>
+
+            <div class="col-4  intro-img">
+              <!-- <img src="./images/glo.jpg" alt=""> -->
+            </div>
+
+            <h1 class=" text2">NorthEast Women In Tech</h1>
+
           </div>
-          <div class="collapse navbar-collapse" id="mainMenu">
-            <ul class="navbar-nav ml-auto navigations">
-              <li>
-                <a href="home.html" class="active active-first">Home</a>
-              </li>
-              <li>
-                <a href="./src/about.html">About Us</a>
-              </li>
-              <li>
-                <a href="#" onclick="alert('this page is yet to be implemented');">Impact Stories</a>
-              </li>
-              <li>
-                <a href="#" onclick="alert('this page is yet to be implemented');">Blog</a>
-              </li>
-              <li>
-                <a href="./src/media.html">Media</a>
-              </li>
-              <li class="nav-contact">
-                <a href="./src/contactUs.html" >Contact Us</a>
-              </li>
-  
-            </ul>
-            <a href="./src/donate.html" class="button">Donate</a>
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdADf9WLLlHi6_EFQEFSrzOA5AD9Z1boga7nibgsK3PvfR_WQ/viewform?usp=pp_url" target="_blank" class="button">Register</a>
+        </div>
+
+      </section>
+
+
+      <!----- Goals ----->
+      <section class="passion">
+        <div class="goals">
+          <div>
+            <h1>
+              What Drives Us
+            </h1>
           </div>
-        </nav>
-      </div>
-    </header>
 
-    <main>
-      <div class="landing-page">
+          <div class="row cards">
+            <div class="col card vision">
+              <div class="row card-heading">
+                <h2>Vision</h2>
+                <div><span class="iconify" data-icon="fa-solid:eye"></span></div>
+              </div>
 
-        <!----- Intro ----->
-        <section class="intro">
-          <div class="container">
-            <div class="row">
-              <div class="col-7  intro-text">
-                <h1 class=" text1">Northeast Women In Tech</h1>
+              <div class="card-text">
                 <p>
-                  Northastern Women In Tech (NEWIT) is a women-led start-up that aims at empowering women and girls with technological skills through mindset reengineering and core tech skills training.<br> Join our online community of like minded girls and women in Tech across the six northeastern states of Nigeria, to network, stay updated, get help and grow in your distinct tech career path.
+                  To see girls and women in Northeast Nigeria, equipped with technical skills that fosters innovative
+                  change, and economic growth.
                 </p>
-                <a href="https://docs.google.com/forms/d/e/1FAIpQLSdADf9WLLlHi6_EFQEFSrzOA5AD9Z1boga7nibgsK3PvfR_WQ/viewform?usp=pp_url" target="_blank" class="button">Join Now</a>
-              </div>
-              
-              <div class="col-4  intro-img">
-                <!-- <img src="./images/glo.jpg" alt=""> -->
               </div>
 
-              <h1 class=" text2">Northeast Women In Tech</h1>
-              
             </div>
-          </div>
-
-        </section>
-
-
-        <!----- Goals ----->
-        <section class="passion">
-          <div class="goals">
-            <div>
-              <h1>
-                What Drives Us
-              </h1>
-            </div>
-
-            <div class="row cards">
-              <div class="col card vision">
-                <div class="row card-heading">
-                  <h2>Vision</h2>
-                  <div ><span class="iconify" data-icon="fa-solid:eye" ></span></div>
-                </div>
-
-                <div class="card-text">
-                  <p>
-                    To see girls and women in Northeast Nigeria, equipped with technical skills that fosters innovative change, and economic growth.
-                  </p>
-                </div>
-
+            <div class="col card mission">
+              <div class="row card-heading">
+                <h2>Mission</h2>
+                <div><span class="iconify" data-icon="ant-design:aim-outlined"></span></div>
               </div>
-              <div class="col card mission">
-                <div class="row card-heading">
-                  <h2>Mission</h2>
-                  <div ><span class="iconify" data-icon="ant-design:aim-outlined" ></span></div>
-                </div>
 
-                <div class="card-text">
-                  <p>
-                    To create opportunities that increases the active participation of Northeast girls and women in technology.
-                  </p>
-                </div>
-                
-              </div>
-              <div class="col card sdg">
-                <div class="row card-heading">
-                  <h2>SDG's</h2>
-                  <div >
-                    <img src="./images/sdg.webp" alt="" >
-                  </div>
-                </div>
-
-                <div class="card-text">
-                  <p>
-                    Our organzation’s objectives directly addresses SDG one five and eight, no poverty, gender equality and decent work and economic growth respectively.
-                  </p>
-                </div>
-                
-              </div>
-            </div>
-          </div>
-
-        </section>
-
-
-        <!----- Impact Stories ----->
-        <section class="impact-story">
-          <div class="container">
-            <div class="row">
-              <div class="col-7 vaw-text">
-                <h1 class="text1">Value Added to Our World</h1>
+              <div class="card-text">
                 <p>
-                  Our first online event tagged "Tech for the 21st century Lady" is coming up in June 2022 and is aimed at reengineering the mindset of young ladies, exposing them to the limitless opportunities waiting to be harnessed in the tech space and the potentials deposited in them waiting to be stirred. For more information, sponsorship and partnership for this event, <a href="./src/contactUs.html" style="color: #ad5e00; font-weight: 700; text-decoration: none;">contact us</a> 
+                  To create opportunities that increases the active participation of Northeast girls and women in
+                  technology.
                 </p>
-                <a href="#" onclick="alert('this page is yet to be implemented');" class="button">View More Impact Stories</a> <span class="iconify" data-icon="akar-icons:arrow-right"></span>
               </div>
-              <div class="col-4  vaw-img">
-                <!-- <img src="./images/glo.jpg" alt=""> -->
-                
-              </div>
-              <h1 class="text2">Value Added to Our World</h1>
-              
+
             </div>
-          </div>
-
-        </section>
-
-
-        <!----- Partners ----->
-        <section class="partners-section">
-          <div class="partners">
-            <div>
-              <h1>
-                Partners
-              </h1>
-            </div>
-
-            <div class="row partners-cards">
-              <div class="col big">
-                <div class="card"></div>           
-
-              </div>
-
-              <div class="col small" >
-                <div class="card" ></div>
-                <div class="card"></div>                
-
-              </div>
-              
-              <div class="col big">
-                <div class="card"></div> 
-
-              </div>
-
-              <div class="col small" id="one">
-                <div class="card" id="one"></div>
-                <div class="card"></div>
-              </div>
-              <div class="col big">
-                <div class="card"></div>               
-                
-              </div>
-            </div>
-          </div>
-
-        </section>
-
-
-        <!----- Newsletter ----->
-        <section class="newsletter-section" id="newsletter">
-          <div class="newsletter">
-
-            <div class="container newsletter-form">
-              <h2>
-                <strong>Subscribe To Our NewsLetter</strong>
-              </h2>
-              <form class="form-subscribe" action="#">
-                <div class="input-group">
-                  <input name="email" type="email" id="email" class="form-control input-lg" placeholder="Your email address" required>
-                  <span class="input-group-btn">
-                    <button class="btn btn-lg" type="submit" value="subscribe" >Subscribe</button>
-                  </span>
+            <div class="col card sdg">
+              <div class="row card-heading">
+                <h2>SDG's</h2>
+                <div>
+                  <img src="./images/sdg.webp" alt="">
                 </div>
-              </form>
+              </div>
+
+              <div class="card-text">
+                <p>
+                  Our organzation’s objectives directly addresses SDG one five and eight, no poverty, gender equality
+                  and decent work and economic growth respectively.
+                </p>
+              </div>
+
             </div>
-            <!-- <div>
+          </div>
+        </div>
+
+      </section>
+
+
+      <!----- Impact Stories ----->
+      <section class="event">
+        <div class=" col container">
+          <h1 class="text1">Upcoming Event</h1>
+          <div class="row">
+            <div class="col-6 vaw-text">
+              <p>
+                This Digital Marketing Training is a three weeks training program sponsored by Northeast Women in Tech
+                in collaboration with make IT here Tech and will be facilitated by a skilled professional in the Digital
+                Marketing sphere. It is tailored towards equipping women with digital marketing skills. It is an
+                immersive online experience, which allows participants to learn directly from experts.
+              </p>
+              <a href="./src/events.html" class="button">View All Upcoming Event</a> <span class="iconify"
+                data-icon="akar-icons:arrow-right"></span>
+            </div>
+            <div class="col-5  vaw-img">
+              <!-- <img src="./images/glo.jpg" alt=""> -->
+
+            </div>
+            <h1 class="text2">Upcoming Event</h1>
+
+          </div>
+        </div>
+
+      </section>
+
+
+
+      <!----- Value Added to the World ----->
+      <section id="counter-stats" class="wow fadeInRight" data-wow-duration="1.4s">
+        <div class="container">
+          <div class="row">
+      
+            <div class="col-lg-3 stats">
+              <i class="fa fa-code" aria-hidden="true"></i>
+              <div class="counting" data-count="900000">0</div>
+              <h5>Lines of code</h5>
+            </div>
+      
+            <div class="col-lg-3 stats">
+              <i class="fa fa-check" aria-hidden="true"></i>
+              <div class="counting" data-count="280">0</div>
+              <h5>Projects done</h5>
+            </div>
+      
+            <div class="col-lg-3 stats">
+              <i class="fa fa-user" aria-hidden="true"></i>
+              <div class="counting" data-count="75">0</div>
+              <h5>Happy clients</h5>
+            </div>
+      
+            <div class="col-lg-3 stats">
+              <i class="fa fa-coffee" aria-hidden="true"></i>
+              <div class="counting" data-count="999">0</div>
+              <h5>Cups of coffee</h5>
+            </div>
+      
+      
+          </div>
+          <!-- end row -->
+        </div>
+        <!-- end container -->
+      
+      </section>
+
+
+      <!----- Testimonial ----->
+      <section class="testimonial-section">
+      </section>
+
+
+      <!----- Partners ----->
+      <section class="partners-section">
+        <div class="partners">
+          <div>
+            <h1>
+              Partners
+            </h1>
+          </div>
+
+          <div class="row partners-cards container">
+            <div class="col big">
+              <div class="card"></div>
+
+            </div>
+
+            <div class="col small">
+              <div class="card"></div>
+              <div class="card"></div>
+
+            </div>
+
+            <div class="col big">
+              <div class="card"></div>
+
+            </div>
+
+            <div class="col small" id="one">
+              <div class="card" id="one"></div>
+              <div class="card"></div>
+            </div>
+            <div class="col big">
+              <div class="card"></div>
+
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+
+      <!----- Newsletter ----->
+      <section class="newsletter-section" id="newsletter">
+        <div class="newsletter">
+
+          <div class="container newsletter-form">
+            <h2>
+              <strong>Subscribe To Our NewsLetter</strong>
+            </h2>
+            <form class="form-subscribe" action="#">
+              <div class="input-group">
+                <input name="email" type="email" id="email" class="form-control input-lg"
+                  placeholder="Your email address" required>
+                <span class="input-group-btn">
+                  <button class="btn btn-lg" type="submit" value="subscribe">Subscribe</button>
+                </span>
+              </div>
+            </form>
+          </div>
+          <!-- <div>
               <h1>
                 Subscribe To Our NewsLetter
               </h1>
@@ -244,184 +304,208 @@
                 </div>
               </form>             
             </div> -->
-          </div>
-
-        </section>
-        
-
-
-      </div>
-    </main>
-
-
-    <!-- Footer -->
-    <footer class=" text-lg-start ">
-      <!-- Grid container -->
-      <div class="footer container p-4">
-        <!--Grid row-->
-        <div class="row my-4">
-                
-          <!--Grid column--> 
-          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-            <h5 class="text-uppercase mb-4">Links</h5>
-  
-            <ul class="list-unstyled">
-              <li class="mb-2">
-                <a href="./home.html" class="">Home</a>
-              </li>
-              <li class="mb-2">
-                <a href="./src/about.html" class="">About Us</a>
-              </li>
-              <li class="mb-2">
-                <a href="#" onclick="alert('this page is yet to be implemented');" class="">Blog</a>
-              </li>
-              <li class="mb-2">
-                <a href="./src/media.html" class="">Media</a>
-              </li>
-              <li class="mb-2">
-                <a href="#" onclick="alert('this page is yet to be implemented');" class="">Impact Stories</a>
-              </li>
-              <li class="mb-2">
-                <a href="./src/contactUs.html" class="">Contact Us</a>
-              </li>
-              <li class="mb-2">
-                <a href="https://docs.google.com/forms/d/e/1FAIpQLSdADf9WLLlHi6_EFQEFSrzOA5AD9Z1boga7nibgsK3PvfR_WQ/viewform?usp=pp_url" class="" target="_blank">Register</a>
-              </li>
-              <li class="mb-2">
-                <a href="./src/donate.html" class="">Donate</a>
-              </li>
-            </ul>
-          </div>
-          <!--Grid column-->
-  
-          <!--Grid column-->
-          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-            <h5 class="text-uppercase mb-4">Get Involved</h5>
-  
-            <ul class="list-unstyled">
-              <li class="mb-2">
-                <a href="./src/donate.html" class="">Donate</a>
-              </li>
-              <li class="mb-2">
-                <a href="./src/contactUs.html" class="">Volunteer</a>
-              </li>
-              <li class="mb-2">
-                <a href="#newsletter" class="">Subscribe to our Newsletter</a>
-              </li>
-              <li class="mb-2">
-                <a href="#!" class="">Privacy</a>
-              </li>
-              
-            </ul>
-          </div>
-          <!--Grid column--> 
-  
-          <!--Grid column-->
-          <div class="col-lg-3 col-md-6 mb-4 mb-md-0 ">
-            <h5 class="text-uppercase mb-4">Reach Out</h5>
-  
-            <ul class="list-unstyled">
-              <li>
-                
-                <a href="mailto:newomenintech@gmail.com"><p><span class="iconify" data-icon="clarity:envelope-solid-badged"></span>newomenintech@gmail.com</p></a>
-              </li>
-              <li>
-                <a href="tel:+2349161200312"><p> <span class="iconify" data-icon="bxs:phone-call"></span>+2349161200312</p></a>
-              </li>
-              <li>
-                
-                <a href=""><p> <span class="iconify" data-icon="entypo:location"></span> Shop P12 Fire Service Complex</p></a>
-              </li> 
-            </ul>
-
-            <div class="row footer-socials">
-              <div class="footer-img">
-                <img src="../images/logopng.png"  alt="newit" loading="lazy" />
-              </div>
-
-              <div class="col"> 
-                <p>Let's Connect</p>
-                <ul class="list-unstyled d-flex flex-row justify-content-center">
-                  
-                  <li>
-                    <a class=" px-2" href="https://www.linkedin.com/company/northeast-women-in-tech/about/?viewAsMember=true" target="_blank">
-                      <span class="iconify" data-icon="entypo-social:linkedin-with-circle"></span>                  
-                    </a>
-                  </li>
-                  <li>
-                    <a class=" px-2" href="https://www.instagram.com/northeastwomenintech/?hl=en" target="_blank">
-                      <span class="iconify" data-icon="entypo-social:instagram-with-circle"></span>
-                    </a>
-                  </li>
-                  <li>
-                    <a class=" px-2" href="https://web.facebook.com/Northeast-Women-in-Tech-105106088842807/?ref=pages_you_manage" target="_blank">
-                      <span class="iconify" data-icon="entypo-social:facebook-with-circle"></span>
-                    </a>
-                  </li>
-                  <li>
-                    <a class=" ps-2" href="https://twitter.com/newomenintech" target="_blank">
-                      <span class="iconify" data-icon="entypo-social:twitter-with-circle"></span>
-                    </a>
-                  </li>
-                </ul>
-
-              </div>
-    
-              
-            </div>
-          </div>
-          <!--Grid column-->
-
-            
         </div>
-        <!--Grid row-->
+
+      </section>
+
+
+
+    </div>
+  </main>
+
+
+  <!-- Footer -->
+  <footer class=" text-lg-start ">
+    <!-- Grid container -->
+    <div class="footer container p-4">
+      <!--Grid row-->
+      <div class="row my-4">
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase mb-4">Links</h5>
+
+          <ul class="list-unstyled">
+            <li class="mb-2">
+              <a href="./home.html" class="">Home</a>
+            </li>
+            <li class="mb-2">
+              <a href="./src/about.html" class="">About Us</a>
+            </li>
+            <li class="mb-2">
+              <a href="#" onclick="alert('this page is yet to be implemented');" class="">Blog</a>
+            </li>
+            <li class="mb-2">
+              <a href="./src/media.html" class="">Media</a>
+            </li>
+            <li class="mb-2">
+              <a href="#" onclick="alert('this page is yet to be implemented');" class="">Impact Stories</a>
+            </li>
+            <li class="mb-2">
+              <a href="./src/contactUs.html" class="">Contact Us</a>
+            </li>
+            <li class="mb-2">
+              <a href="https://docs.google.com/forms/d/e/1FAIpQLSdADf9WLLlHi6_EFQEFSrzOA5AD9Z1boga7nibgsK3PvfR_WQ/viewform?usp=pp_url"
+                class="" target="_blank">Register</a>
+            </li>
+            <li class="mb-2">
+              <a href="./src/donate.html" class="">Donate</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase mb-4">Get Involved</h5>
+
+          <ul class="list-unstyled">
+            <li class="mb-2">
+              <a href="./src/donate.html" class="">Donate</a>
+            </li>
+            <li class="mb-2">
+              <a href="./src/contactUs.html" class="">Volunteer</a>
+            </li>
+            <li class="mb-2">
+              <a href="#newsletter" class="">Subscribe to our Newsletter</a>
+            </li>
+            <li class="mb-2">
+              <a href="#!" class="">Privacy</a>
+            </li>
+
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0 ">
+          <h5 class="text-uppercase mb-4">Reach Out</h5>
+
+          <ul class="list-unstyled">
+            <li>
+
+              <a href="mailto:newomenintech@gmail.com">
+                <p><span class="iconify" data-icon="clarity:envelope-solid-badged"></span>newomenintech@gmail.com</p>
+              </a>
+            </li>
+            <li>
+              <a href="tel:+2349161200312">
+                <p> <span class="iconify" data-icon="bxs:phone-call"></span>+2349161200312</p>
+              </a>
+            </li>
+            <li>
+
+              <a href="">
+                <p> <span class="iconify" data-icon="entypo:location"></span> Shop P12 Fire Service Complex</p>
+              </a>
+            </li>
+          </ul>
+
+          <div class="row footer-socials">
+            <div class="footer-img">
+              <img src="../images/logopng.png" alt="newit" loading="lazy" />
+            </div>
+
+            <div class="col">
+              <p>Let's Connect</p>
+              <ul class="list-unstyled d-flex flex-row justify-content-center">
+
+                <li>
+                  <a class=" px-2"
+                    href="https://www.linkedin.com/company/northeast-women-in-tech/about/?viewAsMember=true"
+                    target="_blank">
+                    <span class="iconify" data-icon="entypo-social:linkedin-with-circle"></span>
+                  </a>
+                </li>
+                <li>
+                  <a class=" px-2" href="https://www.instagram.com/northeastwomenintech/?hl=en" target="_blank">
+                    <span class="iconify" data-icon="entypo-social:instagram-with-circle"></span>
+                  </a>
+                </li>
+                <li>
+                  <a class=" px-2"
+                    href="https://web.facebook.com/Northeast-Women-in-Tech-105106088842807/?ref=pages_you_manage"
+                    target="_blank">
+                    <span class="iconify" data-icon="entypo-social:facebook-with-circle"></span>
+                  </a>
+                </li>
+                <li>
+                  <a class=" ps-2" href="https://twitter.com/newomenintech" target="_blank">
+                    <span class="iconify" data-icon="entypo-social:twitter-with-circle"></span>
+                  </a>
+                </li>
+              </ul>
+
+            </div>
+
+
+          </div>
+        </div>
+        <!--Grid column-->
+
+
       </div>
-      <!-- Grid container -->
-      
-  
-      <!-- Copyright -->
-      <div class="text-center p-3">
-        <p>
-          © 2022 northeastwomenintech all rights reserved
-        </p>
-        
-      </div>
-      <!-- Copyright -->
-    </footer>
+      <!--Grid row-->
+    </div>
+    <!-- Grid container -->
+
+
+    <!-- Copyright -->
+    <div class="text-center p-3">
+      <p>
+        © 2022 northeastwomenintech all rights reserved
+      </p>
+
+    </div>
+    <!-- Copyright -->
+  </footer>
+
+
+
+
+
+  <!-- Bootstrap js-->
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous">
+    </script>
+  <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <!-- <script src="./js/custom.js"></script> -->
+  <script src="./js/counter.js"></script>
+
+
+
+  <script type="text/javascript">
+    window.addEventListener('scroll', function () {
+      const header = document.querySelector('header');
+      header.classList.toggle("sticky", window.scrollY > 0);
+    });
+
+
+    function toggleMenu() {
+      const menuToggle = document.querySelector('.menuToggle');
+      const navigations = document.querySelector('.navigations');
+      menuToggle.classList.toggle('active');
+      navigations.classList.toggle('active');
+    }
+    AOS.init({
+      duration: 1200,
+    });
+    //  window.onload = function() {
+    //   document.querySelector(".loader-bg").style.display = "none";
+    // }
+
     
 
 
 
 
-    <!-- Bootstrap js-->
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
-    <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    
 
 
-    <script type="text/javascript">
+  </script>
+</body>
 
-      window.addEventListener('scroll',function(){
-        const header = document.querySelector('header');
-        header.classList.toggle("sticky", window.scrollY > 0);
-       });
- 
- 
-       function toggleMenu(){
-       const menuToggle = document.querySelector('.menuToggle');
-       const navigations = document.querySelector('.navigations');
-       menuToggle.classList   .toggle('active');
-       navigations.classList   .toggle('active');
-       }
-       AOS.init({
-         duration: 1200,
-       });
-      //  window.onload = function() {
-      //   document.querySelector(".loader-bg").style.display = "none";
-      // }
-
-     </script>
-  </body>
 </html>
